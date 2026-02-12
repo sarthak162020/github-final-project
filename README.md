@@ -1,56 +1,56 @@
-# Simple Interest Calculator
+🌿 e-plantShopping
+📌 Project Overview
 
-## Project Overview
+e-plantShopping is a React-based plant shopping web application developed as part of the IBM Developing Front-End Apps with React course. The application allows users to browse different plants, add them to a shopping cart, update quantities, and manage their cart efficiently.
 
-This project contains a Bash script that calculates Simple Interest based on user input.
+🚀 Purpose of the Project
 
-The calculator takes:
-- Principal amount
-- Rate of interest
-- Time period (in years)
+The purpose of this project is to demonstrate front-end development skills using:
 
-and calculates the Simple Interest using the formula:
+React components
 
-Simple Interest = (Principal × Rate × Time) / 100
+Redux Toolkit for state management
 
----
+Functional UI design
 
-## Features
+Component-based architecture
 
-- User-friendly input prompts
-- Performs simple interest calculation
-- Lightweight Bash script
-- Easy to run in terminal
+This project simulates a real-world e-commerce plant store.
 
----
+🌱 Features
 
-## How to Run the Script
+Landing page with Paradise Nursery background
 
-1. Clone the repository:
-   git clone https://github.com/sarthak162020/github-final-project.git
+Product listing page displaying various plants
 
-2. Navigate into the project directory:
-   cd github-final-project
+Add to Cart functionality
 
-3. Make the script executable:
-   chmod +x simple-interest.sh
+Update quantity of items in cart
 
-4. Run the script:
-   ./simple-interest.sh
+Remove items from cart
 
----
+Shopping cart page with total price calculation
 
-## Example
+State management using Redux
 
-Enter Principal Amount: 1000  
-Enter Rate of Interest: 5  
-Enter Time Period (in years): 2  
+🛠️ Technologies Used
 
-Output:
-Simple Interest is: 100
+React.js
 
----
+Redux Toolkit
 
-## Author
+JavaScript (ES6+)
 
-Sarthak Verma
+HTML5
+
+CSS3
+
+📂 Project Structure
+
+App.jsx – Landing page
+
+ProductList.jsx – Product listing page
+
+CartSlice.jsx – Redux reducers (addItem, removeItem, updateQuantity)
+
+CartItem.jsx – Shopping cart page
